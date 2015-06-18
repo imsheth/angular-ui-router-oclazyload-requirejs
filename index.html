@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Dependencies -->
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+    <script data-main="app/main" src="bower_components/requirejs/require.js"></script> 
+  </head>
+  <body>
+    <h1>0) This is from index.html !</h1>
+    Click on the links to navigate : 
+    <a ui-sref="parent.dashboard">Go to Parent Dashboard</a>
+    <a ui-sref="parent.listing">Go to Parent Listing</a>
+    <hr />
+    <div ui-view></div>
+  </body>
+</html>

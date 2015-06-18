@@ -1,0 +1,17 @@
+{
+  "name": "angular-ui-router-oclazyload-requirejs",
+  "version": "0.0.0",
+  "authors": [
+    "Ishan Sheth <contact@imsheth.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "oclazyload": "~1.0.1",
+    "angular-ui-router": "~0.2.15",
+    "requirejs": "~2.1.18"
+  },
+  "resolutions": {
+    "angular": ">=1.2.x <=1.4.x"
+  }
+}
